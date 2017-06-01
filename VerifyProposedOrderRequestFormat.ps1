@@ -64,7 +64,7 @@ $current = $item.item
         }
   
     if($current.sku -eq $null) {
-    Add-Error "SKU is not present!"
+        Add-Error "SKU is not present!"
         }
     }
 
